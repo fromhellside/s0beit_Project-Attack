@@ -1,0 +1,1840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{3acbb6a1-2dad-4652-a0f4-50998bd6bf34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{ad2fa68d-2906-4414-9dee-9f83e44cc897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\RakNet">
+      <UniqueIdentifier>{4fca762a-c0e6-4c1a-b4e7-ea6d3aa07b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RakNet BoTz">
+      <UniqueIdentifier>{e1b1d443-9975-4404-8c4e-3b662eaa7584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RakNet BoTz\Bot Senkronizasyonları">
+      <UniqueIdentifier>{2b6e815a-a021-48e5-af6f-164b0aed98e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparshash">
+      <UniqueIdentifier>{1b956e19-8747-4fa8-976e-aa5c14c5e5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparshash\google">
+      <UniqueIdentifier>{cec61312-62d4-4342-9cb9-d6433b8beebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparshash\google\sparsehash">
+      <UniqueIdentifier>{96ffe87c-8439-4110-87cc-638cb4d4dac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparshash\windows">
+      <UniqueIdentifier>{5ad2f905-f911-4555-8f40-52cf47962098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparshash\windows\google">
+      <UniqueIdentifier>{31cb1d64-d4ce-4c90-a17d-ec556e417472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparshash\windows\google\sparsehash">
+      <UniqueIdentifier>{d3f13339-400e-4391-bb01-447f6644f256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RakNet BoTz\Bot Değişkenleri SAMP">
+      <UniqueIdentifier>{8ea10762-486a-44db-8f30-8525a9399a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRakNet">
+      <UniqueIdentifier>{737760e9-d9aa-43e6-8104-ade52c2f735e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRakNet\SAMPP">
+      <UniqueIdentifier>{c94ecbd1-e6f5-458e-9467-afcf4eb644ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacketLogger">
+      <UniqueIdentifier>{d54a0aec-bb19-4f58-a002-2099dae58785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D9">
+      <UniqueIdentifier>{9ae3016e-5310-4986-8c0f-04920b5da7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RemoteControlFuncs">
+      <UniqueIdentifier>{df92885a-4c95-46ac-95f8-168ac1607de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ATB">
+      <UniqueIdentifier>{70f25ada-d2f9-4e9d-b0f4-a8ac8a89682a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\game_sa">
+      <UniqueIdentifier>{7e564f64-d0bf-4a5c-89d2-83c66e1b6aad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_sa\game\C3DMarker.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\C3DMarkers.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAERadioTrackManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendAssocGroup.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendAssociation.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendHierarchy.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendSequence.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendStaticAssociation.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlock.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAudio.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAutomobile.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBike.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBmx.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBoat.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBuilding.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCam.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCamera.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCarEnterExit.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCarGenerator.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCheckpoint.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCheckpoints.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCivilianPed.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CClock.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CColModel.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CColPoint.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CControllerConfigManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCoronas.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CDamageManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CDoor.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEntity.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEvent.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventDamage.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventGroup.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventGunShot.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventList.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CExplosion.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CExplosionManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFire.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFireManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFont.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFx.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGame.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGarage.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGarages.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHandlingEntry.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHandlingManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHud.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CKeyGen.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMarker.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMenuManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CModelInfo.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMonsterTruck.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CObject.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\Common.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPad.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticle.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticleObject.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticleSystemManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPathFind.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPed.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedDamageResponse.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedDamageResponseCalculator.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedIK.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedIntelligence.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedModelInfo.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedSound.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPhysical.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPickup.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPickups.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlane.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlayerInfo.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlayerPed.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPools.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPopulation.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CProjectile.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CProjectileInfo.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CQuadBike.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRadar.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRegisteredCorona.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRemote.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRenderWare.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRestart.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRopes.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CSettings.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CStats.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CStreaming.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTaskManagementSystem.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTaskManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTasks.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CText.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTheCarGenerators.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTrailer.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVehicle.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVehicleScanner.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVisibilityPlugins.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWanted.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWater.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWaterManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeapon.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeaponInfo.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeather.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWorld.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\RenderWare.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\Task.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskAttack.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskBasic.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskCar.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskCarAccessories.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskGoTo.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskIK.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskJumpFall.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskPhysicalResponse.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskSecondary.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskTypes.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\C3DMarkerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\C3DMarkersSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAERadioTrackManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendAssocGroupSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendAssociationSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendHierarchySA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendSequenceSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendStaticAssociationSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlockSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAudioSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAutomobileSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBikeSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBmxSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBoatSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBuildingSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCameraSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCamSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCarEnterExitSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCarGeneratorSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCheckpointSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCheckpointsSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCivilianPedSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CClockSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CColModelSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CColPointSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CControllerConfigManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCoronasSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CDamageManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CDoorSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEntitySA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventDamageSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventGroupSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventGunShotSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventListSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CExplosionManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CExplosionSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFireManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFireSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFontSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFxSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGameSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGarageSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGaragesSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHandlingEntrySA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHandlingManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHudSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CKeyGenSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMarkerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix4.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix_Pad.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMenuManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CModelInfoSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMonsterTruckSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CObjectSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\COffsets.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\Common.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPadSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleObjectSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleSystemManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPathFindSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedDamageResponseCalculatorSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedDamageResponseSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedIKSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedIntelligenceSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedModelInfoSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedSoundSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPhysicalSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPickupSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPickupsSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlaneSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlayerInfoSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlayerPedSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPoolsSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPopulationSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CProjectileInfoSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CProjectileSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CQuadBikeSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRadarSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRegisteredCoronaSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRemoteSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRenderWareSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRestartSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRopesSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CSettingsSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CStatsSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CStreamingSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTaskManagementSystemSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTaskManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTasksSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTextSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTheCarGeneratorsSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTrailerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVector.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVector2D.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVehicleSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVehicleScannerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVisibilityPluginsSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWantedSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWaterManagerSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWaterSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeaponInfoSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeaponSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeatherSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWorldSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\gamesa_renderware.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\HeapTrace.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\HookSystem.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\StdInc.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskAttackSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskBasicSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskCarAccessoriesSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskCarSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskGoToSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskIKSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskJumpFallSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskNamesSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskPhysicalResponseSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskSA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskSecondarySA.h">
+      <Filter>game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="ADE32.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CDetour.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_actor.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_generic.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_hookers.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_patches.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_vehicle.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_vehRecording.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_classify.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="dumb_menu.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAfuncs.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="keyhook.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="math_stuff.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="patcher.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="samp.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirect3DData.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drender.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyIDirect3D9.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyIDirect3DDevice9.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\dense_hash_map.h">
+      <Filter>sparshash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\dense_hash_set.h">
+      <Filter>sparshash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparse_hash_map.h">
+      <Filter>sparshash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparse_hash_set.h">
+      <Filter>sparshash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparsetable.h">
+      <Filter>sparshash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\type_traits.h">
+      <Filter>sparshash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparsehash\densehashtable.h">
+      <Filter>sparshash\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparsehash\sparsehashtable.h">
+      <Filter>sparshash\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\windows\config.h">
+      <Filter>sparshash\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\windows\port.h">
+      <Filter>sparshash\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\windows\google\sparsehash\sparseconfig.h">
+      <Filter>sparshash\windows\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="stddefs.h" />
+    <ClInclude Include="stdtypes.h" />
+    <ClInclude Include="HookedRakClient.h">
+      <Filter>Cheat\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_samp.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\Fonksiyonlar.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\Hileler.h" />
+    <ClInclude Include="AraçHileleri.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\Flooderler.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\Silah_Hileleri.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\Crasherler.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\AntiCrasher.h" />
+    <ClInclude Include="BenimRakClient.h">
+      <Filter>Cheat\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\_findfirst.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\AsynchronousFileIO.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\AutopatcherPatchContext.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\AutopatcherRepositoryInterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\BigTypes.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\BitStream.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\BitStream_NoTemplate.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\CheckSum.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ClientContextStruct.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\CommandParserInterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ConsoleServer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DataBlockEncryptor.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DataCompressor.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_BinarySearchTree.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_BPlusTree.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_ByteQueue.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_Heap.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_HuffmanEncodingTree.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_LinkedList.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_List.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_Map.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_MemoryPool.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_OrderedChannelHeap.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_OrderedList.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_Queue.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_QueueLinkedList.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_RangeList.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_Table.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_Tree.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_WeightedGraph.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\EmailSender.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\Export.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ExtendedOverlappedPool.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\FileOperations.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\FullyConnectedMesh.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\GetTime.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\InternalPacket.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\InternalPacketPool.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\LinuxStrings.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\LogCommandParser.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\MTUSize.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\multiplayer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\NetworkIDGenerator.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\NetworkTypes.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\PacketEnumerations.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\PacketPool.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\PacketPriority.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\PluginInterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakAssert.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakClient.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakClientInterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakNetCommandParser.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakNetDefines.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakNetStatistics.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakNetworkFactory.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\rakpeer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\rakpeerinterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakServer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\rakserverinterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakSleep.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\Rand.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ReliabilityLayer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\Replica.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ReplicaEnums.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\rijndael.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\rijndael-boxes.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RouterInterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RPCMap.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RPCNode.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RSACrypt.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SHA1.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SimpleMutex.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SimpleTCPServer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SingleProducerConsumer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SocketLayer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\StringCompressor.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\StringTable.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\systemaddresslist.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SystemDatabaseClient.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SystemDatabaseServer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\TableSerializer.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\TCPInterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\TelnetTransport.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ThreadPool.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\TransportInterface.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\Types.h">
+      <Filter>FRakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SAMP\samp_auth.h">
+      <Filter>FRakNet\SAMPP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\RPCler.h" />
+    <ClInclude Include="BotFonksiyonları.h">
+      <Filter>RakNet BoTz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\BotRakClient.h">
+      <Filter>RakNet BoTz\Bot Senkronizasyonları</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\AimBotlar.h" />
+    <ClInclude Include="BotYönetimi.h">
+      <Filter>RakNet BoTz</Filter>
+    </ClInclude>
+    <ClInclude Include="RakNetFonksiyonları.h" />
+    <ClInclude Include="MenüTanımlamaları.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\TrollHileler.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\CACBypass.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\BotStructs.h">
+      <Filter>RakNet BoTz\Bot Değişkenleri SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\SettingsMenu.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\resource.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\bass.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\CarSyncs.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\FakeKill.h" />
+    <ClInclude Include="BotMenüDefine.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\SelectSAMPVersion.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\detours.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\TestClass.h" />
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\PacketLogger.h">
+      <Filter>PacketLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RapidFire%27s Attack Project\src\RandomFunctions.h" />
+    <ClInclude Include="RControl.h">
+      <Filter>RemoteControlFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="rainb0w.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="AntTweakBar\AntTweakBar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game_sa\C3DMarkerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\C3DMarkersSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAERadioTrackManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendAssocGroupSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendAssociationSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendHierarchySA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendSequenceSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendStaticAssociationSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlockSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAudioSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAutomobileSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBikeSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBmxSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBoatSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBuildingSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCameraSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCamSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCarEnterExitSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCarGeneratorSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCheckpointSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCheckpointsSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCivilianPedSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CClockSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CColModelSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CColPointSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CControllerConfigManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCoronasSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CDamageManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CDoorSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEntitySA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventDamageSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventGroupSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventGunShotSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventListSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CExplosionManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CExplosionSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFireManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFireSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFontSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFxSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGameSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGarageSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGaragesSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHandlingEntrySA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHandlingManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHudSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CKeyGenSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMarkerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMenuManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CModelInfoSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMonsterTruckSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CObjectSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\COffsets.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPadSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleObjectSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleSystemManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPathFindSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedDamageResponseCalculatorSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedDamageResponseSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedIKSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedIntelligenceSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedModelInfoSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedSoundSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPhysicalSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPickupSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPickupsSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlaneSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlayerInfoSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlayerPedSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPoolsSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPopulationSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CProjectileInfoSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CProjectileSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CQuadBikeSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRadarSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRegisteredCoronaSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRemoteSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRenderWareSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRestartSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRopesSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CSettingsSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CStatsSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CStreamingSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTaskManagementSystemSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTaskManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTasksSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTextSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTheCarGeneratorsSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTrailerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVehicleSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVehicleScannerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVisibilityPluginsSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWantedSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWaterManagerSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWaterSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeaponInfoSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeaponSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeatherSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWorldSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\HeapTrace.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\HookSystem.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\StdInc.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskAttackSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskBasicSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskCarAccessoriesSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskCarSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskGoToSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskIKSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskJumpFallSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskNamesSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskPhysicalResponseSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskSA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskSecondarySA.cpp">
+      <Filter>game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="ADE32.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CDetour.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_actor.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_funcs.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_generic.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_hookers.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_patches.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_vehicle.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_vehRecording.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_classify.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="dumb_menu.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAfuncs.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="keyhook.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="math_stuff.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="patcher.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="samp.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirect3DData.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3drender.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyIDirect3D9.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyIDirect3DDevice9.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="HookedRakClient.cpp">
+      <Filter>Cheat\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_samp.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\Fonksiyonlar.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\Hileler.cpp" />
+    <ClCompile Include="AraçHileleri.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\Flooderler.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\Silah_Hileleri.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\Crasherler.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\AntiCrasher.cpp" />
+    <ClCompile Include="BenimRakClient.cpp">
+      <Filter>Cheat\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\_findfirst.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\AsynchronousFileIO.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\BitStream.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\BitStream_NoTemplate.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\CheckSum.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\CommandParserInterface.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ConsoleServer.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DataBlockEncryptor.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DataCompressor.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_ByteQueue.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_HuffmanEncodingTree.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\DS_Table.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\EmailSender.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\EncodeClassName.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ExtendedOverlappedPool.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\FileOperations.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\FullyConnectedMesh.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\GetTime.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\InternalPacketPool.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\LinuxStrings.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\LogCommandParser.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\NetworkIDGenerator.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\NetworkTypes.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\PluginInterface.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakClient.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakNetCommandParser.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakNetStatistics.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakNetworkFactory.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakPeer.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\rakserver.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RakSleep.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\Rand.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\ReliabilityLayer.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\rijndael.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\RPCMap.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SHA1.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SimpleMutex.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SocketLayer.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\StringCompressor.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\StringTable.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SystemAddressList.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SystemDatabaseClient.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SystemDatabaseServer.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\TableSerializer.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\TCPInterface.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\TelnetTransport.cpp">
+      <Filter>FRakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FRakNet\SAMP\samp_auth.cpp">
+      <Filter>FRakNet\SAMPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BotFonksiyonları.cpp">
+      <Filter>RakNet BoTz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\BotRakClient.cpp">
+      <Filter>RakNet BoTz\Bot Senkronizasyonları</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\AimBotlar.cpp" />
+    <ClCompile Include="BotYönetimi.cpp">
+      <Filter>RakNet BoTz</Filter>
+    </ClCompile>
+    <ClCompile Include="RakNetFonksiyonları.cpp" />
+    <ClCompile Include="MenüTanımlamaları.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\TrollHileler.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\BotStructs.cpp">
+      <Filter>RakNet BoTz\Bot Değişkenleri SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\SettingsMenu.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\CarSyncs.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\FakeKill.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\TestClass.cpp" />
+    <ClCompile Include="Added-RemovedThings.cpp" />
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\PacketLogger.cpp">
+      <Filter>PacketLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RapidFire%27s Attack Project\src\RandomFunctions.cpp" />
+    <ClCompile Include="RControl.cpp">
+      <Filter>RemoteControlFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainbow.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="Secure.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CACBypass.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mod_sa.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rsrc.rc" />
+    <ResourceCompile Include="..\..\RapidFire%27s Attack Project\src\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\RapidFire%27s Attack Project\src\bass.lib" />
+    <Library Include="..\..\RapidFire%27s Attack Project\src\detours.lib" />
+    <Library Include="AntTweakBar.lib" />
+  </ItemGroup>
+</Project>
